@@ -62,3 +62,21 @@ gsap
     },
     scale: 1.6,
   })
+  .to("#photo_profile", {
+    scrollTrigger: {
+      trigger: "#photo_profile",
+      scrub: 1,
+    },
+    x: 100,
+    opacity: 1.5,
+    ease: "back",
+  })
+  .to(".text", {
+    scrollTrigger: {
+      trigger: ".text",
+      scrub: 1,
+    },
+    x: 75,
+    opacity: 1.5,
+    ease: "back",
+  });

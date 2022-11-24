@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TypoGraphica";
-  src: url("public/font/TypoGraphica.otf");
+  src: url("font/TypoGraphica.otf");
 }
 
 @font-face {
   font-family: "Butler";
-  src: url("public/font/Butler.otf");
+  src: url("font/Butler.otf");
 }
 
 @font-face {
   font-family: Mermaid;
-  src: url("public/font/Mermaid.ttf");
+  src: url("font/Mermaid.ttf");
 }
 
 * {
