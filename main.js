@@ -61,4 +61,4 @@ gsap
       scrub: 1,
     },
     scale: 1.6,
-  });
+  })

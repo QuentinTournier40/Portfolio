@@ -35,9 +35,8 @@ h3 {
 }
 
 p {
-  font-size: 26px;
+  font-size: 45px;
   font-family: Mermaid;
-  background-color: #fff;
 }
 
 section {
@@ -77,7 +76,7 @@ section img {
 
 .block {
   position: relative;
-  padding: 30vh 30vh 5vh 30vh;
+  padding: 0vh 30vh 5vh 15vh;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -87,27 +86,27 @@ section img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: rgb(97, 97, 97); */
   border-radius: 10px;
   flex-wrap: wrap-reverse;
+  margin-top: 400px;
 }
 
 .moi p {
-  padding: 20px;
-  color: #000;
+  color: #c8a1a1;
   border-radius: 10px;
 }
 
 .moi > .text {
-  max-width: 66%;
-  /* background-color: #979797; */
+  max-width: 40%;
   display: flex;
   justify-content: center;
 }
 
 .moi img {
-  border-radius: 40px;
+  border-radius: 90px;
   margin: 50px 0 50px 0;
+  width: 700px;
+  box-shadow: 31px 33px rgba(0, 0, 0, 0.5);
 }
 
 .curve1 {
@@ -147,6 +146,6 @@ section img {
 }
 
 .layer1 {
-  margin-top: 100px;
+  margin-top: 500px;
   background-image: url("curve.svg");
 }
