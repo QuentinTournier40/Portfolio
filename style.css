@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "TypoGraphica";
+  src: url("font/TypoGraphica.otf");
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("font/Butler.otf");
+}
+
+@font-face {
+  font-family: Mermaid;
+  src: url("font/Mermaid.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Butler;
+}
+
+body {
+  background-color: #34144e;
+}
+
+h2 {
+  position: relative;
+  font-size: 7vw;
+  font-family: Mermaid;
+}
+
+h3 {
+  font-size: 6vw;
+}
+
+p {
+  font-size: 26px;
+  font-family: Mermaid;
+  background-color: #fff;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to top, #34144e, transparent);
+  z-index: 10000;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page h2 {
+  margin-top: -100px;
+  font-family: TypoGraphica;
+}
+
+.block {
+  position: relative;
+  padding: 30vh 30vh 5vh 30vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.moi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgb(97, 97, 97); */
+  border-radius: 10px;
+  flex-wrap: wrap-reverse;
+}
+
+.moi p {
+  padding: 20px;
+  color: #000;
+  border-radius: 10px;
+}
+
+.moi > .text {
+  max-width: 66%;
+  /* background-color: #979797; */
+  display: flex;
+  justify-content: center;
+}
+
+.moi img {
+  border-radius: 40px;
+  margin: 50px 0 50px 0;
+}
+
+.curve1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve1 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 208px;
+  transform: rotateY(180deg);
+}
+
+.curve1 .shape-fill {
+  fill: #000000;
+}
+
+.experiences {
+  background-color: #fff;
+  color: black;
+}
+
+.spacer {
+  aspect-ratio: 960/540;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.layer1 {
+  margin-top: 100px;
+  background-image: url("curve.svg");
+}
