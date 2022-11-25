@@ -67,7 +67,7 @@ gsap
       trigger: "#photo_profile",
       scrub: 1,
     },
-    x: 100,
+    xPercent: 15,
     opacity: 1.5,
     ease: "back",
   })
@@ -76,7 +76,7 @@ gsap
       trigger: ".text",
       scrub: 1,
     },
-    x: 75,
+    xPercent: 15,
     opacity: 1.5,
     ease: "back",
   });

@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: #34144e;
+  background-color: transparent;
 }
 
 h2 {
@@ -80,6 +80,7 @@ section img {
   color: #fff;
   display: flex;
   flex-direction: column;
+  background-color: #34144e;
 }
 
 .moi {
@@ -89,6 +90,8 @@ section img {
   border-radius: 10px;
   flex-wrap: wrap-reverse;
   margin-top: 400px;
+  margin-bottom: 400px;
+  z-index: 3;
 }
 
 .moi p {
@@ -148,4 +151,5 @@ section img {
 .layer1 {
   margin-top: 500px;
   background-image: url("curve.svg");
+  z-index: 1  ;
 }
